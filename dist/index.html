@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="relative h-screen overflow-hidden">
+
+    <video class="absolute top-0 left-0 w-full h-full object-cover z-0" autoplay muted loop>
+        <source
+            src="https://www.audemarspiguet.com/content/dam/ap/com/homepage/2024/remaster02/Header_HP_Remaster_02.mp4"
+            type="video/mp4">
+    </video>
+
+    <header class="relative flex flex-col h-screen  text-white z-10">
+        
+        <nav class="mx-10 flex justify-between items-center h-16 lg:mx-20 lg:my-10">
+            <div class="flex justify-between items-center space-x-7 font-bold">
+                <img class="w-10" src="img/preferences.png" alt="">
+                <ul class="hidden lg:flex justify-between items-center space-x-7 font-bold">
+                    <li>Watches</li>
+                    <li>Our World</li>
+                    <li>Stories</li>
+                </ul>
+            </div>
+
+            <div class="lg:hidden">
+                <img class="w-10" src="https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo-mini-white.svg" alt="">
+            </div>
+
+            <img class="w-40 lg:block hidden"
+                src="https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo-white.svg"
+                alt="">
+
+            <div class="flex justify-between items-center space-x-7 font-bold">
+                <ul class="hidden lg:flex justify-between items-center space-x-7 font-bold ">
+                    <li>Service</li>
+                    <li>Boutiques</li>
+                </ul>
+                <img class="w-7" src="img/download.png" alt="">
+                <img class="w-8" src="img/watchpng3.webp" alt="">
+            </div>
+        </nav>
+
+        <div class="flex flex-col absolute bottom-14 mx-10 lg:mx-20">
+            <div class="text-4xl font-thin md:text-6xl">[RE]MASTER02,</div>
+            <div class="text-3xl italic md:text-6xl"> A TRIBUTE TO <br><span>BRUTALISM</span> </div>
+            <div class="my-8 w-[50%]">This limited edition features an asymmetrical 41 mm rectangular case in the new
+                18-carat sand gold alloy and is equipped with the Calibre 7129.</div>
+            <div class="flex items-center space-x-4">
+                <div class="w-16 h-1 border border-slate-600 bg-slate-600 hover:w-6"></div>
+                <div>Discover more</div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
